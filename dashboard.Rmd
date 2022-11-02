@@ -1,0 +1,86 @@
+---
+title: "NY NOAA Flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+
+```
+
+```{r}
+
+data("ny_noaa")
+
+ny_noaa =
+  ny_noaa %>%
+    separate(date, sep = "-", into = c("year", "month", "day")) %>% 
+      mutate(day = as.integer(`day`)) %>%
+        mutate(year = as.integer(`year`)) %>%
+          mutate(tmax = as.integer(`tmax`)) %>%
+            mutate(tmin = as.integer(`tmin`)) %>%
+              mutate(tmax = tmax / 10 ) %>%
+                mutate(tmin = tmin / 10) %>%
+                    mutate(snow = snow /10) %>%
+                      filter( year %in% c(2000:2010))
+
+
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### NY State Avgerage Maximum Temerature by Month (2000-2010) (Celsius)
+
+```{r}
+
+ny_noaa %>%
+  mutate(month= month.name[as.numeric(month)]) %>%
+  group_by(month) %>%
+    summarize(
+      avg_max = mean(tmax, na.rm=TRUE)
+    ) %>%
+  plot_ly(x = ~month, y = ~avg_max, color = ~month, type = "bar", colors = "viridis") %>%
+      layout(xaxis = list(categoryorder = "array",
+                    categoryarray = c("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")))
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Relationship between maximum temperaute and minimum temperature (200 observations randomly selected)
+
+```{r}
+
+ny_noaa %>%
+  drop_na(tmax) %>%
+  drop_na(tmin) %>%
+  sample_n(200) %>%
+   plot_ly(
+    x = ~tmin, y = ~tmax, type = "scatter", mode = "markers",
+      alpha = 0.5)
+
+```
+
+### Distribution of snowfall amounts in NY State during the winter months (2000-2010)(for days that it snowed, capped at 20cm of snowfall)
+
+```{r}
+
+ny_noaa %>%
+  mutate(month= month.name[as.numeric(month)]) %>%
+  filter(month %in% c("December", "January", "February", "March")) %>%
+  filter(snow <20 & snow>0) %>%
+  plot_ly(y = ~snow, color = ~month, type = "box", colors = "viridis") 
+
+```
+
