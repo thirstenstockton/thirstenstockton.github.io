@@ -1,0 +1,92 @@
+---
+title: "Academic and Professional Experiences"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    
+---
+  
+  
+  
+## _Education_
+
+**2021 - 2023** 
+
+M.P.H, Department of Epidemiology, Columbia University                  Mailman School of Public Health. _Certificate in Advanced Epidemiology._
+
+**2015 - 2020** 
+
+BA Public Health, Department of Public Health and Populations Sciences, Boise State University.
+_Dean’s List: Spring 2020, Fall 2020. Coursework in health education, health policy, social determinants, research and epidemiology_
+
+## _Research Experience_
+
+**May-August 2022** 
+
+**Health Research Training Program Intern**, Office of Research and Evaluation Bureau of Mental Health, New York City Department of Mental Health and Hygiene.  
+  
+_Analyzing the distribution and determinants of mental health status across New York City._  
+  
+Responsibilities involved conducting literature reviews, creating analysis plans, data analysis, and data quality checks. Gained experience analyzing complex survey data. Final Project: The Association Between Fruit and Vegetable Consumption and Psychological Distress in New York City.  
+  
+  
+**2021 –**  
+  
+**Research Assistant**, Dr Marisa Spann, N3 early Neuroimaging, Neuroimmune
+and Neuropsychology Lab, Department of Psychiatry, Columbia University. 
+
+_This laboratory aims to improve our understanding of associations between severaltypes of prenatal exposures including maternal infection, autoimmune disease, BMI, and socioeconomic and psychological distress with offspring psychiatric risk, and the role of infant brain function and structure in mediating this risk._  
+
+Responsibilities include assisting with manuscript preparation, attending weekly admin and research meetings and data management in REDCAP. In addition, I also take part in paper discussions to further my understanding in the field.  
+  
+**Jan–March 2020**  
+  
+**Epidemiology Internship**, Department of Health Services, County of
+Sacramento, Public Health.  
+
+_Exploring the association between maternal mortality rates in Sacramento Countyand the fetal health outcomes._ 
+
+Responsibilities are inclusive of conducting literature reviews, gathering data from registries as well as the cleaning, entering and analysis of data. In addition, I assisted with Covid-19 response by creating line list for further epidemiologic analysis. Gained familiarity with Incident Command Systems and outbreak investigations.
+
+## _Other Expereince_  
+
+**2015 – 2021**  
+
+**Nondestructive Test Technician**, Idaho Air National Guard.  
+
+_Conducted analysis on aircraft and a variety of aircraft parts to test for defects.Technique expertise in ultrasonic inspections, computed and traditional radiography, eddy current, penetrant analysis, oil analysis (PPM concentrations and wear of metals to diagnosis), and MSS data capture._  
+
+Experiences included Specialization in A-10 air frame, Training new airmen,keeping up to date our maintenance database and deployment to Afghanistan in support of Operation Freedom Sentinel, 5/11/2020-8/7/2020. Final Rank: E-5.  
+
+**2017 -2018**  
+
+**Substitute Paraeducator**, Elk Grove Unified School District.  
+
+Assisted teacher in special education classrooms either in a group setting or working one on one with a student. Responsibilities included ensuring understanding of material and helping students throughout the day.
+
+## _Academic Awards and Honours_  
+  
+**2021** - Non-Commissioned Officer of the Quarter Nominee  
+
+**2017** - Airman of the Quarter Nominee
+
+## Technical Skills  
+  
+**Software Packages**  
+_(both Windows
+and Mac)_  
+
+  - REDCap
+  - SAS
+  - SUDAAN
+  - R/R Studio
+  - Microsoft Office (Inc. Excel)
+
+## _Publications_  
+
+**Abstracts**  
+  
+Mueller I, Monk C, Cheng B, **Stockton T**, Rosen T, Peterson BS, Scheinost D, Spann MN (2022)“Mapping a dynamic interplay: Auditory attention and receptive language network development across the first eight months of life” Fetal, Infant, & Toddler Imaging Group Conference, Paris, FR  
+
+Pollatou A, **Stockton T**, Peterson BS, Scheinost D, Monk C, Spann MN (2022) “Fetal heart rate and heart rate variability associates with brainstem and hypothalamic connectivity in neonates” International Society for Developmental Psychobiology, San Diego, CA

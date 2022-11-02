@@ -1,0 +1,16 @@
+---
+title: "Thirsten Stockton, MPH Candidate"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    
+---
+
+<img src="Images/profile.jpeg" style="width:50%"style="height:50%">  
+
+
+
+# **About Me**  
+
+Hardworking public health professional attending Columbia University Mailman School of Public Health in the Department of Epidmeiology. Passionate about addressing inequities and breaking intergenerational traumas through research. Areas of focus: lifecourse epidemiology, mental health, maternal and child health. 
