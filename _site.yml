@@ -11,6 +11,8 @@ navbar:
       href: http://github.com/thirstenstockton/
     - icon: fab fa-linkedin
       href: http://www.linkedin.com/in/thirsten-stockton-57b849201/
+    - icon: fab fa-twitter
+      href: http://twitter.com/thirstenstckton
 output:
   html_document:
     theme: cosmo
