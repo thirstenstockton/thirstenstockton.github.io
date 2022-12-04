@@ -58,7 +58,7 @@ ny_noaa %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Relationship between maximum temperaute and minimum temperature (200 observations randomly selected)
+### Relationship between maximum temperature and minimum temperature (200 observations randomly selected)
 
 ```{r}
 

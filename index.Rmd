@@ -13,4 +13,4 @@ output:
 
 # **About Me**  
 
-Hardworking public health professional attending Columbia University Mailman School of Public Health in the Department of Epidmeiology. Passionate about addressing inequities and breaking intergenerational traumas through research. Areas of focus: lifecourse epidemiology, mental health, maternal and child health. 
+Hardworking public health professional attending [Columbia University Mailman School of Public Health](https://www.publichealth.columbia.edu/) in the [Department of Epidemiology](https://www.publichealth.columbia.edu/academics/departments/epidemiology). Passionate about addressing inequities and breaking intergenerational traumas through research. Areas of focus: [lifecourse](https://www.publichealth.columbia.edu/research/imprints-center/lifecourse-studies) epidemiology, mental health, maternal and child health. 
