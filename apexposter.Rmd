@@ -1,0 +1,7 @@
+---
+title: "2022 Applied Practicum Experience Poster: Early N3 lab, Department of Psychiatry, Columbia University"
+
+output: html_document
+---
+
+<img src="Images/Stockton_T_APEXPoster_n3.jpg" style="width:100%"style="height:100%"> 
